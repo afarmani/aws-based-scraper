@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: sites.newegg.app.lambda_handler
+      CodeUri: C:\projects\PycharmProjects\scrapers\sites\newegg
+      Runtime: python3.8
